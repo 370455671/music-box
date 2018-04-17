@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  .clearfix{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .cover{
+  /*   outline: 1px solid; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523962926982&di=123e8f6b188111f6118294935d162b41&imgtype=0&src=http%3A%2F%2Fpic.xiudodo.com%2Ffigure%2F00%2F00%2F42%2F41%2F64%2F6955c2d16a265c2.jpg) center center no-repeat;
+
+    background-size: cover;
+  /*   filter:blur(5px); */
+  }
+  .musicBox{
+  /*   border: 1px solid red; */
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    transform:translate(-50%,-50%)
+  }
+  .musicTop{
+    background: rgba(255,255,255,0.8)
+  }
+  .control{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size:35px;
+    float: left;
+    color: blue;
+  }
+  .musicTime{
+  /*   border: 5px solid; */
+    position: relative;
+    height: 38px;
+  }
+  .barDuration{
+  /*   border: 1px solid; */
+    background: #ddd;
+    width: 80%;
+    height: 5px;
+    position: absolute;
+    top:5px;
+    left: 20px;
+  }
+  .barCurrent{
+    height: 5px;
+    position: absolute;
+    top:5px;
+    left: 20px;
+    background: pink;
+  }
+  .currentTime{
+    position: absolute;
+    right: 50px;
+    bottom:2px; 
+  }
+  
+  .musicPlay{
+  /*   border: 1px solid; */
+  }
+  .info{
+    font-size:25px;
+    margin-left:250px;
+  }
+  

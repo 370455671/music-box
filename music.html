@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style type="text/css">
+    .icon {
+      width: 1em; height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+  <div class="cover"></div>
+  <div class="musicBox">
+    <div class="musicTop">
+      <div class="musicPlay clearfix">
+        <div class="control">
+          <svg class="icon back" aria-hidden="true">
+            <use xlink:href="#icon-circle-back"></use>
+          </svg>
+          <svg class="icon pause" aria-hidden="true">
+            <use id="pause" xlink:href="#icon-pause"></use>
+          </svg>
+          <svg class="icon next" aria-hidden="true">
+            <use xlink:href="#icon-circle-next"></use>
+          </svg>
+        </div>
+        <div class="info">
+          <div class="songName"></div>
+          <div class="singer"></div>
+        </div>
+      </div>
+      <div class="musicTime">
+        <div class="bar">
+          <div class="barDuration"></div>
+          <div class="barCurrent"></div>
+
+        </div>
+        <div class="currentTime">2:22</div>
+      </div>
+    </div>
+    <div class="musicBottom">
+      <ul class="list"></ul>
+    </div>
+  </div>
+  <script src="//at.alicdn.com/t/font_610040_9sk1yhg7d2bg9zfr.js"></script>
+  <script src="music.js"></script>
+  
+</body>
+</html>
